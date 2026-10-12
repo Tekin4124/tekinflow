@@ -1,0 +1,19 @@
+<configuration>
+    <property name="APP_LOG_LEVEL" value="${APP_LOG_LEVEL:-INFO}" />
+    <property name="SQL_LOG_LEVEL" value="${SQL_LOG_LEVEL:-WARN}" />
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd'T'HH:mm:ss.SSSXXX} %-5level [%thread] %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="org.jetbrains.exposed" level="${SQL_LOG_LEVEL}" />
+    <logger name="Exposed" level="${SQL_LOG_LEVEL}" />
+    <logger name="io.netty" level="WARN" />
+    <logger name="org.postgresql" level="WARN" />
+
+    <root level="${APP_LOG_LEVEL}">
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>

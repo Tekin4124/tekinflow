@@ -1,0 +1,26 @@
+{
+  "name": "tekinflow-demo-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "vite": "6.4.4",
+    "typescript": "5.7.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "lucide-react": "0.468.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.1",
+    "@types/react-dom": "19.0.1"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    colors.xml
+    Uygulama renk paletinin XML tanımları — Material 3 tasarım sistemi uyumlu
+-->
+<resources>
+    <!-- Birincil Renkler (Koyu Mavi) -->
+    <color name="primary">#1565C0</color>
+    <color name="primary_variant">#0D47A1</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#D6E4FF</color>
+    <color name="on_primary_container">#001A41</color>
+
+    <!-- İkincil Renkler (Açık Mavi) -->
+    <color name="secondary">#42A5F5</color>
+    <color name="secondary_variant">#1E88E5</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="secondary_container">#CCE5FF</color>
+    <color name="on_secondary_container">#001D36</color>
+
+    <!-- Arka Plan -->
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_background">#1C1B1F</color>
+    <color name="on_surface">#1C1B1F</color>
+    <color name="surface_variant">#E7EAF0</color>
+
+    <!-- Durum Renkleri -->
+    <color name="error">#B00020</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="success">#2E7D32</color>
+    <color name="warning">#E65100</color>
+    <color name="info">#0277BD</color>
+
+    <!-- Malzeme Durum Renkleri -->
+    <color name="status_pending">#FF8F00</color>
+    <color name="status_in_progress">#1565C0</color>
+    <color name="status_purchased">#2E7D32</color>
+    <color name="status_delivered">#6A1B9A</color>
+    <color name="status_cancelled">#B00020</color>
+
+    <!-- Aciliyet Renkleri -->
+    <color name="urgency_low">#558B2F</color>
+    <color name="urgency_normal">#1565C0</color>
+    <color name="urgency_high">#E65100</color>
+    <color name="urgency_urgent">#B71C1C</color>
+
+    <!-- Outline -->
+    <color name="outline">#79747E</color>
+    <color name="outline_variant">#CAC4D0</color>
+</resources>
