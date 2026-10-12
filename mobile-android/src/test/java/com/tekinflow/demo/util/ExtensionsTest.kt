@@ -2,8 +2,24 @@ package com.tekinflow.demo.util
 
 import com.google.common.truth.Truth.assertThat
 import org.junit.Test
+import org.junit.Before
+import org.junit.After
+import java.util.TimeZone
 
 class ExtensionsTest {
+    private lateinit var previousTimeZone: TimeZone
+
+    @Before
+    fun setTimeZone() {
+        previousTimeZone = TimeZone.getDefault()
+        TimeZone.setDefault(TimeZone.getTimeZone("Europe/Istanbul"))
+    }
+
+    @After
+    fun restoreTimeZone() {
+        TimeZone.setDefault(previousTimeZone)
+    }
+
 
     @Test
     fun `toFormattedDateTime formats timestamp in Turkish style`() {
