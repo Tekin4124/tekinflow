@@ -8,6 +8,21 @@ Tek geliştirici tarafından geliştirilen TekinFlow; satın alma ekibi, sevkiya
 
 [Webde dene](https://tekinflow.muhammet-tekin.dev) · [Android APK indir](https://github.com/Tekin4124/tekinflow/releases/latest/download/TekinFlow.apk) · [Kurulum](#web-panelini-çalıştır) · [Katkıda bulun](CONTRIBUTING.md) · [MIT](LICENSE)
 
+## Ekran görüntüleri
+
+Canlı web panelleri ve Android ekranı; tüm kayıtlar hayalidir.
+
+![Sevkiyat paneli](docs/screenshots/sevkiyat.jpg)
+
+![Satın alma paneli](docs/screenshots/satinalma.jpg)
+
+<details><summary>Android görünümü</summary>
+
+<img src="docs/screenshots/android.png" alt="Android satın alma listesi" width="320">
+
+</details>
+
+
 ## Neler yapar?
 
 | Çalışma alanı | İşlev |
