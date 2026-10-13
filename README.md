@@ -6,7 +6,7 @@
 
 Tek geliştirici tarafından geliştirilen TekinFlow; satın alma ekibi, sevkiyat sorumlusu ve şoförün aynı talebi farklı rollerde takip etmesini sağlar. Kotlin/Compose Android uygulaması, React web paneli ve Kotlin/Ktor backend kaynakları bu depoda yer alır.
 
-[Android APK indir](https://github.com/Tekin4124/tekinflow/releases/latest) · [Kurulum](#web-panelini-çalıştır) · [Katkıda bulun](CONTRIBUTING.md) · [MIT](LICENSE)
+[Webde dene](https://tekinflow.muhammet-tekin.dev) · [Android APK indir](https://github.com/Tekin4124/tekinflow/releases/latest) · [Kurulum](#web-panelini-çalıştır) · [Katkıda bulun](CONTRIBUTING.md) · [MIT](LICENSE)
 
 ## Neler yapar?
 

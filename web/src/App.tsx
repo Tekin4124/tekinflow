@@ -461,7 +461,7 @@ function App() {
         setSelectedRequestId(null); setQuery(""); setStatusFilter("ALL"); setAssignmentFilter("ALL");
         setUsers([]); setNotifications([]); setNotificationsOpen(false); notificationIdsRef.current = new Set();
         window.history.replaceState(null, "", `?role=${next.user.role}`);
-      }}>{demoRoles.map((role,index)=><option key={role} value={role}>{demoLabels[index]}</option>)}</select><span>Veriler yalnız bu tarayıcıda saklanır</span><button onClick={()=>{if(window.confirm("Örnek veriler sıfırlansın mı?")){api.resetDemo();window.location.reload();}}}>Örnek verileri sıfırla</button></nav>
+      }}>{demoRoles.map((role,index)=><option key={role} value={role}>{demoLabels[index]}</option>)}</select><span>Veriler yalnız bu tarayıcıda saklanır</span><button onClick={()=>{if(window.confirm("Örnek veriler sıfırlansın mı?")){api.resetDemo();window.location.reload();}}}>Örnek verileri sıfırla</button><a className="apk-link" href="https://github.com/Tekin4124/tekinflow/releases/latest/download/TekinFlow.apk">Android APK indir ↗</a></nav>
       <main className="main-grid">
         <aside className="side-rail">
           <div
@@ -865,7 +865,7 @@ function LoginPage({isDark,onToggleTheme,onLogin}:{isDark:boolean;onToggleTheme:
           })}</div>
         </section>
       </div>
-      <footer className="demo-login-foot"><span><Shield size={14}/> Örnek veriler</span><span>Hesap gerekmez</span></footer>
+      <footer className="demo-login-foot"><span><Shield size={14}/> Örnek veriler</span><span>Hesap gerekmez</span><a className="apk-link" href="https://github.com/Tekin4124/tekinflow/releases/latest/download/TekinFlow.apk">Android APK indir ↗</a></footer>
     </section>
   </main>;
 }

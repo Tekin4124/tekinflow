@@ -2152,3 +2152,7 @@ a {
 .logistics-shell .stat-card.selected { background:var(--brand-red-soft); box-shadow:inset 0 0 0 1px var(--brand-red); }
 
 @media (prefers-reduced-motion:reduce) { .demo-role-card { transition:none; } }
+
+.apk-link { color: var(--text-strong); font-weight: 600; text-decoration: none; padding: 8px 10px; border: 1px solid var(--border-soft); border-radius: 8px; }
+.apk-link:hover { text-decoration: underline; }
+.apk-link:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
